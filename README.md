@@ -1,5 +1,5 @@
 # DDoS
-![Screenshot (8)](https://github.com/user-attachments/assets/c10a20ef-39d9-4e46-9ba0-1898d53f7a1f)
+![Screenshot](https://github.com/user-attachments/assets/c10a20ef-39d9-4e46-9ba0-1898d53f7a1f)
 
 
 ## This tool simulates a DDoS attack.

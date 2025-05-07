@@ -12,8 +12,11 @@ Automatic proxy testing and filtering to ensure only active proxies are used.
 Ethical use guidelines and legal notices.
 
 Installation
-To use StressTestPro, you need Python 3.8 or higher. Install the required dependencies using pip:
-pip install aiohttp aiohttp_socks numpy
+To use StressTestPro, you need Python 3.8 or higher.
+
+Install the required dependencies using pip:
+
+>```pip install aiohttp aiohttp_socks numpy```
 
 Usage
 
@@ -40,7 +43,9 @@ Clone the repository:
 دستورالعمل‌های استفاده اخلاقی و اطلاعیه‌های قانونی.
 
 نصب
-برای استفاده از StressTestPro، به Python 3.8 یا بالاتر نیاز دارید. وابستگی‌های مورد نیاز را با استفاده از pip نصب کنید:
+برای استفاده از StressTestPro، به Python 3.8 یا بالاتر نیاز دارید.
+
+وابستگی‌های مورد نیاز را با استفاده از pip نصب کنید:
 >```pip install aiohttp aiohttp_socks numpy```
 
 استفاده

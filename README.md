@@ -2,7 +2,9 @@
 ![Screenshot](https://github.com/user-attachments/assets/c10a20ef-39d9-4e46-9ba0-1898d53f7a1f)
 
 
-## This tool simulates a DDoS attack.
+## This tool simulates a DDoS attack over TOR.
+
+**YOU CAN DDOS OVER TOR and stay unknow**
 
 Asynchronous HTTP requests using aiohttp for high performance.
 Support for SOCKS5 and HTTP proxies to distribute requests and avoid IP blocking.
@@ -33,6 +35,8 @@ Clone the repository:
 # PERSIAN
 
 ## این ابزار حملات DDoS را شبیه سازی میکند
+**با استفاده از این ابزار میتوانید روی شبکه تور DDoS بزنید و ناشناش بمانید**
+
 ویژگی‌ها
 
 درخواست‌های HTTP ناهمزمان با استفاده از aiohttp برای عملکرد بالا.
@@ -55,7 +59,7 @@ Clone the repository:
 >```https://github.com/famosot/DDoS.git```
 
 ### درفایل کلون شده دو اسکریپت وجود دارد
-1.DDoS.py : برای استقاده بدون پروکسی
+1.DDoS.py : برای استفاده بدون پروکسی
 
 2.DDoS-P.py : برای استفاده با پروکسی
 

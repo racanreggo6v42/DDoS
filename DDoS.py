@@ -29,7 +29,7 @@ LOGO = """
 \033[0m
 """
 
-async def test_url(url, proxy, concurrency=50, duration=60):
+async def test_url(url: str, proxy, concurrency: int=50, duration: int=60) -> None:
     start_time = datetime.now()
     request_count = 0
     latencies = []
@@ -71,7 +71,7 @@ async def test_url(url, proxy, concurrency=50, duration=60):
     except Exception as e:
         print(f"\033[91m[!] Error with proxy {proxy}: {e}\033[0m")
 
-async def main():
+async def main() -> None:
     print(LOGO)
     
     # Validate inputs

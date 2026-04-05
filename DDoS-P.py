@@ -70,12 +70,12 @@ def get_valid_duration():
         except ValueError:
             print("\033[91m[!] Please enter a valid number\033[0m")
 
-def get_proxy_list():
+def get_proxy_list() -> list:
     proxy_file = input("[?] Proxy List File (txt, one proxy per line, e.g., socks5://ip:port, or press Enter for none): ").strip()
     if not proxy_file:
         return []
     try:
-        with open(proxy_file, 'r') as f:
+        with open(proxy_file, 'r', encoding="utf-8") as f:
             proxies = [line.strip() for line in f if line.strip()]
         return proxies
     except Exception as e:
@@ -104,7 +104,7 @@ user_agents = [
     "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1"
 ]
 
-async def stress_test(session, urls, hostname, semaphore, proxies):
+async def stress_test(session, urls, hostname, semaphore, proxies) -> None:
     global metrics
     while True:
         async with semaphore:
@@ -149,7 +149,7 @@ async def stress_test(session, urls, hostname, semaphore, proxies):
                 logging.error(log_message)
                 await asyncio.sleep(random.uniform(0.5, 2.0))
 
-async def monitor_metrics(duration):
+async def monitor_metrics(duration) -> None:
     while time.time() - metrics["start_time"] < duration:
         await asyncio.sleep(5)
         elapsed = time.time() - metrics["start_time"]
@@ -165,7 +165,7 @@ async def monitor_metrics(duration):
         logging.info(f"Live Metrics: RPS={rps:.2f}, Success Rate={success_rate:.2f}%, "
                      f"P50 Latency={p50:.2f}s, P95 Latency={p95:.2f}s, P99 Latency={p99:.2f}s")
 
-async def main():
+async def main() -> None:
     parsed_url = urlparse(urls[0])
     hostname = parsed_url.hostname
     semaphore = asyncio.Semaphore(concurrency)
@@ -175,8 +175,8 @@ async def main():
         await asyncio.gather(*tasks)
 
 # Save metrics to CSV
-def save_metrics_to_csv():
-    with open(f"stress_test_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv", "w", newline="") as f:
+def save_metrics_to_csv() -> None:
+    with open(f"stress_test_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Total Requests", "Success", "Failures", "Success Rate", "P50 Latency", "P95 Latency", "P99 Latency", "RPS"])
         total_requests = metrics["success"] + metrics["failures"]

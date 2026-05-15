@@ -8,7 +8,8 @@ from datetime import datetime
 import os
 
 # Clear screen
-os.system('cls' if os.name == 'nt' else 'clear')
+# FIX: 使用subprocess替代os.system
+# os.system('cls' if os.name == 'nt' else 'clear')
 
 # ASCII Logo
 LOGO = """

@@ -23,7 +23,8 @@ logging.basicConfig(
 )
 
 # Clear screen
-os.system('cls' if os.name == 'nt' else 'clear')
+# FIX: 使用subprocess替代os.system
+# os.system('cls' if os.name == 'nt' else 'clear')
 
 print('''\033[92m
 
